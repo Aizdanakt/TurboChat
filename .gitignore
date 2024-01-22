@@ -38,3 +38,16 @@
 !/app/assets/builds/.keep
 
 /node_modules
+
+# DataBase
+/test_guru.sqlite3
+
+# other files
+/.idea
+.idea
+
+.env
+yarn-error.log
+
+
+/config/credentials/production.key
