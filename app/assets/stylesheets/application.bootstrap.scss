@@ -1,0 +1,56 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+#chatroom_container {
+  height: 100vh;
+}
+
+#side_panel {
+  border-right: 1px solid #d3d3d3;
+}
+
+#side_panel h5,
+#room_container h4 {
+  background-color: #4c4c4c;
+  padding: 10px;
+  margin: 0;
+}
+
+#side_panel h4,
+#room_container h4 {
+  color: #ffffff;
+}
+
+#users,
+#rooms,
+#messages,
+#new_room_form,
+#new_message_form {
+  background-color: #2e2e2e;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#users h4,
+#rooms h4,
+#single_room h4 {
+  color: #ffffff;
+}
+
+#users .user,
+#rooms .room,
+#messages .message {
+  border-bottom: 1px solid #3c3c3c;
+  padding: 10px;
+}
+
+#users .user:last-child,
+#rooms .room:last-child,
+#messages .message:last-child {
+  border-bottom: none;
+}
+
+#users .user:hover,
+#rooms .room:hover,
+#messages .message:hover {
+  background-color: #383838;
+}
